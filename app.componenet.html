@@ -19,6 +19,9 @@ app.use(express.json());
 app.use("/admin",adminRoutes);
 app.use("/employees",empRoutes);
 
+const port = parseInt(config.get("port"));
+
+
 
 
 
